@@ -82,5 +82,55 @@ body {
 .nav-blizz-icon {
 
 }
+.wrapper {
+	width: 990px;
+	margin: auto;
+}
+/* PAGE CONTENT STYLES */
+.game-column {
+	width: 163px;
+	float: left;
+}
+
+.game-heading {
+	text-align: center;
+	line-height: 3.6;
+	font-size: 14px;
+}
 
 
+.game-column a {
+	text-decoration: none;
+	color: white;
+	display: block;
+        width: 163px;
+        height: 392px;
+	top: -95px;
+	position: relative;
+	border: 1px solid #3E414A;
+	color: #B2BAC7;
+	padding: 0;
+}
+
+#homepage .game-promo a:hover {
+	background-position: -248px 0; 
+}
+
+#game-wow a {
+	background: url("../img/wow.png") 0 0 no-repeat;
+}
+#game-d3 a{
+	background: url("../img/diablo3.png") 0 0 no-repeat;
+}
+#game-sc2 a{
+	background: url("../img/starcraft2.png") 0 0 no-repeat;
+}
+#game-heroes a {
+	background: url("../img/heroes.png") 0 0 no-repeat;
+}
+#game-hs a {
+	background: url("../img/hearthstone.png") 0 0 no-repeat;
+}
+#game-overwatch a {
+	background: url("../img/overwatch.png") 0 0 no-repeat;
+}
