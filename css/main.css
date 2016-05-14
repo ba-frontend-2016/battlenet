@@ -1,0 +1,15 @@
+#layout-middle {
+	background: url("../img/bg-middle.jpg") top center repeat-x;
+	background-color: #d3d1ce;
+	height: 200px;
+}
+
+#layout-top {
+	background: url("../img/bg-sides.png") bottom center repeat-x;
+	height: 200px;
+}
+
+#layout-bottom {
+	background: black url("../img/bg-top.jpg") no-repeat 50% 70%;
+	height: 200px;
+}
