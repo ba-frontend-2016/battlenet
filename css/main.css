@@ -168,6 +168,10 @@ a {
 	color: #00b6ff;
 }
 
+.link:hover {
+	color: white;
+}
+
 #learn-more {
 	padding: 5px;
 	font-size: 12px;
@@ -207,6 +211,10 @@ a {
 	padding: 8px 15px;
 	border-radius: 3px;
 	box-shadow: 0 0 4px 2px #202325;
+}
+
+.button:hover {
+    background: #00b6ff;
 }
 /***********************/
 /* PAGE CONTENT STYLES */
