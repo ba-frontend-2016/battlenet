@@ -1,7 +1,7 @@
 #layout-middle {
 	background: url("../img/bg-middle.jpg") top center repeat-x;
 	background-color: #d3d1ce;
-	height: 200px;
+	height: 400;
 }
 
 #layout-top {
@@ -233,4 +233,46 @@ a {
 }
 #game-overwatch a {
 	background: url("../img/overwatch.png") 0 0 no-repeat;
+}
+
+/******************************/
+/*    FOOTER *****************/
+/*****************************/
+#footer {
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+
+.nav-item {
+        color: #7b7b7b;
+}
+
+.nav-item:hover {
+        color: #fff;
+}
+
+.nav-icon {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background-image: url("../img/sprite-24-blue.png");
+        vertical-align: middle;
+        margin-right: 10px;
+}
+.nav-icon-question-circle {
+  background-position: -96px 0px;
+}
+.nav-icon-edit {
+  background-position: -144px -24px;
+}
+.nav-icon-globe {
+  background-position: -120px -432px;
+}
+.nav-section {
+        font-size: 15px;
+}
+
+#bottom-nav {
+        display: block;
 }
