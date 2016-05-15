@@ -271,6 +271,40 @@ a {
 }
 .nav-section {
         font-size: 15px;
+        margin-bottom: 30px;
+}
+.nav-section::after {
+        clear: both;
+}
+
+#footer-nav {
+        list-style: none;
+        padding-left: 30px;
+        display: block;
+        height: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+}
+
+#footer-logo {
+        float: left;
+        cursor: pointer;
+}
+
+#copyright {
+        display: block;
+        padding-left: 40px;
+}
+
+#footer-nav li {
+        float: left;
+        padding-right: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        border-right: 1px solid #7b7b7b;
+}
+#footer-nav li:last-child {
+        border: none;
 }
 
 #bottom-nav {
