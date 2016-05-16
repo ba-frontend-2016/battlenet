@@ -16,7 +16,24 @@
                                         </ul>
                                         <ul class="nav-list nav-right">
                                                 <li><a href="">Support</a></li>
-                                                <li><a href="">Your Account<b class="carret"></b></a></li>
+                                                <li>
+                                                    <div class="dropdown pull-right" onclick="dropdown_toggle(event, this)">
+                                                        <a href="#">Your Account<b class="carret"></b></a>
+                                                        <div class="dropdown-menu">
+                                                            <div class="dropdown-section">
+                                                                <div class="login-btn">
+                                                                    <a class="nav-login-btn">LOG IN</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dropdown-section">
+                                                                <div class="acc-settings">
+                                                                    <i class="nav-icon nav-icon-character-cog"></i>
+                                                                    Account Settings
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
                                         </ul>
                                 </div>
                         </div>
@@ -137,5 +154,7 @@
                                 </div>
                         </div>
                 </div>
+                <script src="js/main.js" type="text/javascript"></script>
         </body>
+
 </html>

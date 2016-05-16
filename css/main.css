@@ -98,6 +98,79 @@ body {
 
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-section {
+    line-height: 20px;
+    border-bottom: solid 1px #3d434f;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    float: left;
+    right: -6px;
+    min-width: 200px;
+    background-color: #272e3b;
+    box-shadow: 0 0 0 1px #3d434f inset, 0 5px 10px rgba(0, 0, 0, 0.75);
+    border: solid #000000;
+    border-width: 1px;
+    z-index: 1000;
+}
+
+.open {
+    display: block;
+}
+
+.login-btn {
+    height: 52px;
+    width: 160px;
+    padding: 6px;
+    text-align: center;
+}
+
+.nav-login-btn {
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 6px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    height: 34px;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #00aeff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #098cc8;
+    border-radius: 2px;
+    border: 0;
+    margin: 10px 17px 10px 17px !important;
+}
+
+.login-btn:after {
+    clear: both;
+    display: table;
+    content: "";
+    line-height: 20px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.acc-settings {
+    padding: 10px;
+    color: #aaa;
+    font-size: 15px;
+}
+
 .nav-container {
 	box-sizing: border-box;
 	max-width: 1200px;
@@ -335,6 +408,10 @@ a {
         background-image: url("../img/sprite-24-blue.png");
         vertical-align: middle;
         margin-right: 10px;
+}
+  
+.nav-icon-character-cog {
+    background-position: -96px -120px;
 }
 .nav-icon-question-circle {
   background-position: -96px 0px;
