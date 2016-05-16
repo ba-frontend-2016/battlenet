@@ -128,6 +128,39 @@ body {
 	padding-top: 50px;
 }
 
+.search-bar {
+        float: right;
+        margin-top: 40px;
+}
+
+.search-form {
+    width: 305px;
+    height: 32px;
+    background: url("../img/search-bar.gif") 0 0 no-repeat;
+}
+
+.search-form input[name="search-string"] {
+    border: none;
+    padding: 7px 5px;
+    background-color: transparent;
+    right: 32px;
+    width: 235px;
+    font-size: 12px;
+    position: absolute;
+    outline: none;
+}
+
+.search-form input[type="submit"] {
+    right: -3px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+}
+
 #logo .bnet-logo {
 	width: 402px;
 	height: 92px;
