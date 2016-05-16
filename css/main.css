@@ -62,6 +62,10 @@ body {
     margin-left: 30px;
 }
 
+.nav-list li:first-child a {
+    margin-left: 0;
+}
+
 .nav-list a:hover {
 	color: white;	
 }
