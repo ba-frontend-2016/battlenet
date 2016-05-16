@@ -357,27 +357,28 @@ a {
 	padding: 0;
 }
 
-#homepage .game-promo a:hover {
-	background-position: -248px 0; 
-}
 
-#game-wow a {
+#game-wow .game-promo {
 	background: url("../img/wow.png") 0 0 no-repeat;
 }
-#game-d3 a{
+#game-d3 .game-promo {
 	background: url("../img/diablo3.png") 0 0 no-repeat;
 }
-#game-sc2 a{
+#game-sc2 .game-promo {
 	background: url("../img/starcraft2.png") 0 0 no-repeat;
 }
-#game-heroes a {
+#game-heroes .game-promo {
 	background: url("../img/heroes.png") 0 0 no-repeat;
 }
-#game-hs a {
+#game-hs .game-promo {
 	background: url("../img/hearthstone.png") 0 0 no-repeat;
 }
-#game-overwatch a {
+#game-overwatch .game-promo {
 	background: url("../img/overwatch.png") 0 0 no-repeat;
+}
+
+#homepage .game-promo:hover {
+	background-position: -248px 0; 
 }
 
 /******************************/
